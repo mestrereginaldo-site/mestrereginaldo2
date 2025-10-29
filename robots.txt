@@ -1,0 +1,17 @@
+# Permitir acesso a todos os rastreadores
+User-agent: *
+Allow: /
+Allow: /ads.txt
+
+# Permitir explicitamente o rastreamento pelo AdSense
+User-agent: Mediapartners-Google
+Allow: /
+Allow: /ads.txt
+
+# Permitir explicitamente o rastreamento pelo Google Display Ads
+User-agent: Google-Display-Ads-Bot
+Allow: /
+Allow: /ads.txt
+
+# Sitemap
+Sitemap: https://www.mestrereginaldo.com.br/sitemap.xml
