@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { registerRoutes } from "../server/routes"; // vamos ajustar o caminho
+import { registerRoutes } from "./routes"; // vamos ajustar o caminho
 
 const app = express();
 app.use(cors());
